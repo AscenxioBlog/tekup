@@ -9,3 +9,7 @@
  
   /* ... */
 }
+.home1{
+    background-color: rgba(0, 0, 255, 0.617);
+    background-blend-mode: darken;
+}
