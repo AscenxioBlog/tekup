@@ -9,3 +9,14 @@
  
   /* ... */
 }
+
+
+@layer utilities {
+  .servicepic {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #473aa0af;
+    background-blend-mode: darken;
+  }
+}
