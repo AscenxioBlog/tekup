@@ -3,6 +3,7 @@ import { IoStar } from "react-icons/io5";
 import { IoIosCall } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
+import Pagination from './Pagination';
 
 function MainHome() {
   return (
@@ -48,9 +49,16 @@ function MainHome() {
 </div>
               </div>
         </div>
-
+        <div className=' h-[650px] bg-white W-full'>
+          <div>
+              <p className=' font-semibold text-5xl text-center'>We deal with the aspects of</p>
+              <p className=' font-semibold text-5xl text-center'>professional IT services</p>
+          </div>
+        <div className=' flex gap-4 justify-center mt-[30px]'>
+          <Pagination total={4}/>
+        </div>
+        </div>
     </div>
-
   )
 }
 
