@@ -23,7 +23,7 @@ const Pagination = ({ total = 4 }) => {
       {/* Dots */}
       <div className="flex justify-center gap-2 mt-6">
         {[...Array(total)].map((_, index) => (
-          <button key={index} onClick={() => setActiveIndex(index)}className={`w-3 h-3 rounded-full transition-all duration-300 ${activeIndex === index ? "bg-blue-600 w-5" : "bg-gray-400"}`}/>
+          <button key={index} onClick={() => setActiveIndex(index)} className={`w-3 h-3 rounded-full transition-all duration-300 ${activeIndex === index ? "bg-blue-600 w-5" : "bg-gray-400"}`}/>
         ))}
       </div>
  

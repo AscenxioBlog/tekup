@@ -27,3 +27,7 @@
 }
 
 >>>>>>> 593faadea4f36cbf5c5528d8ec3d3b3b98a384ae
+.home2{
+    background-color: rgba(0, 0, 0, 0.119);
+    background-blend-mode: darken;
+}
