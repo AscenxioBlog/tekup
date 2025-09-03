@@ -17,7 +17,7 @@ const Pagination = ({ total = 4 }) => {
       {/* Show active div */}
      <div className="flex justify-center items-center gap-4 w-80">
         {contents.map((text, index) => (
-          <div key={index} className={`p-6 rounded-md shadow-md text-center transition-all duration-300 ${activeIndex === index ? "bg-blue-100 border-2 border-blue-500" : "bg-gray-100"}`}>{text}</div>
+          <div key={index} className={` rounded-md shadow-md text-center transition-all duration-300 ${activeIndex === index ? "bg-blue-100 border-2 border-blue-500" : "bg-gray-100"}`}>{text}</div>
         ))}
       </div>
       {/* Dots */}

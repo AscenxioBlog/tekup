@@ -10,7 +10,10 @@
   /* ... */
 }
 
-
+.home1{
+  background-color: #011aff8d;
+  background-blend-mode: darken;
+}
 
 .contact1{
   background-color: #011aff8d;
@@ -19,4 +22,20 @@
 .home2{
     background-color: rgba(0, 0, 0, 0.119);
     background-blend-mode: darken;
+}
+.home3{
+  background-image: url(t1.jpeg);
+  background-size: 100% 100%;
+}
+.home4{
+  background-image: url(t2.jpg);
+  background-size: 100% 100%;
+}
+.home5{
+  background-image: url(t3.jpg);
+  background-size: 100% 100%;
+}
+.home6{
+  background-image: url(t4.jpg);
+  background-size: 100% 100%;
 }
