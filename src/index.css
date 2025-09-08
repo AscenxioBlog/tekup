@@ -10,6 +10,8 @@
   /* ... */
 }
 
+
+
 .home1{
   background-color: #011aff8d;
   background-blend-mode: darken;
@@ -22,6 +24,7 @@
 .home2{
     background-color: rgba(0, 0, 0, 0.119);
     background-blend-mode: darken;
+    
 }
 .home3{
   background-image: url(t1.jpeg);
